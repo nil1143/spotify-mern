@@ -4,7 +4,6 @@ import DisplayHome from "./DisplayHome";
 import DisplayAlbum from "./DisplayAlbum";
 import { useContext } from "react";
 import { PlayerContext } from "../context/PlayerContext";
-// import { albumsData } from '../assets/assets'
 
 const Display = () => {
   const { albumsData } = useContext(PlayerContext);
@@ -21,7 +20,6 @@ const Display = () => {
     if (isAlbum) {
       // displayRef.current.style.background = `linear-gradient(${bgColor},#121212)`;
       displayRef.current.style.background = `linear-gradient(#3b3b3b,#121212)`;
-
     } else {
       displayRef.current.style.background = `#121212`;
     }
