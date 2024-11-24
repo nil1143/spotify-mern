@@ -19,7 +19,7 @@ const Player = () => {
   return track ? (
     <div className="h-[10%] bg-black flex justify-between items-center text-white px-4">
       <div className="hidden lg:flex items-center gap-4">
-        <img className="w-12" src={track.image} alt="" />
+        <img width="48" height="48" src={track.image} alt="song-img" />
         <div>
           <p>{track.name}</p>
           <p>{track.album}</p>
@@ -28,38 +28,54 @@ const Player = () => {
       <div className="flex flex-col items-center gap-1 m-auto">
         <div className="flex gap-4">
           <img
-            className="w-4 cursor-pointer"
+            width="16"
+            height="16"
+            className="cursor-pointer"
             src={assets.shuffle_icon}
-            alt=""
+            alt="shuffle"
           />
           <img
+            width="16"
+            height="16"
             onClick={previous}
-            className="w-4 cursor-pointer"
+            className="cursor-pointer"
             src={assets.prev_icon}
-            alt=""
+            alt="prev"
           />
           {playStatus ? (
             <img
+              width="16"
+              height="16"
               onClick={pause}
-              className="w-4 cursor-pointer"
+              className="cursor-pointer"
               src={assets.pause_icon}
-              alt=""
+              alt="pause"
             />
           ) : (
             <img
+              width="16"
+              height="16"
               onClick={play}
-              className="w-4 cursor-pointer"
+              className="cursor-pointer"
               src={assets.play_icon}
-              alt=""
+              alt="play"
             />
           )}
           <img
+            width="16"
+            height="16"
             onClick={next}
-            className="w-4 cursor-pointer"
+            className="cursor-pointer"
             src={assets.next_icon}
-            alt=""
+            alt="next"
           />
-          <img className="w-4 cursor-pointer" src={assets.loop_icon} alt="" />
+          <img
+            width="16"
+            height="16"
+            className="cursor-pointer"
+            src={assets.loop_icon}
+            alt="loop"
+          />
         </div>
         <div className="flex items-center gap-5">
           <p>
@@ -79,14 +95,14 @@ const Player = () => {
         </div>
       </div>
       <div className="hidden lg:flex items-center gap-2 opacity-75 cursor-not-allowed">
-        <img className="w-4" src={assets.plays_icon} alt="" />
-        <img className="w-4" src={assets.mic_icon} alt="" />
-        <img className="w-4" src={assets.queue_icon} alt="" />
-        <img className="w-4" src={assets.speaker_icon} alt="" />
-        <img className="w-4" src={assets.volume_icon} alt="" />
+        <img width="16" height="16" src={assets.plays_icon} alt="1" />
+        <img width="16" height="16" src={assets.mic_icon} alt="2" />
+        <img width="16" height="16" src={assets.queue_icon} alt="3" />
+        <img width="16" height="16" src={assets.speaker_icon} alt="4" />
+        <img width="16" height="16" src={assets.volume_icon} alt="5" />
         <div className="w-20 bg-slate-50 h-1 rounded"></div>
-        <img className="w-4" src={assets.mini_player_icon} alt="" />
-        <img className="w-4" src={assets.zoom_icon} alt="" />
+        <img width="16" height="16" src={assets.mini_player_icon} alt="6" />
+        <img width="16" height="16" src={assets.zoom_icon} alt="7" />
       </div>
     </div>
   ) : null;
