@@ -77,9 +77,12 @@ The Spotify Clone project is a web application that replicates the core function
 
 ## Features
 
-________
+
 ### Spotify Player
-#### <b>DESKTOP</b>
+___
+<details>
+<summary>DESKTOP - click to see</summary>
+
 #### Display | Home Page
 ![index_button](/spotify-clone/src/assets/readme/live-view.png)
 
@@ -94,17 +97,23 @@ ________
 
 #### Player
 ![index_button](/spotify-clone/src/assets/readme/player.png)
+</details>
 
-#### <b>MOBILE</b>
+<details>
+<summary>MOBILE - click to see</summary>
+
 #### Display | Home Page
 <img src="spotify-clone/src/assets/readme/mobile-display.png" alt="Alt Text" width="300" height="600">
 
 #### Album Page
 <img src="spotify-clone/src/assets/readme/mobile-album.png" alt="Alt Text" width="300" height="600">
+</details>
 
-_______________
+
 ### Admin Panel
-#### <b>DESKTOP</b>
+
+<details>
+<summary>DESKTOP Admin - click to see</summary>
 
 #### Add Song
 ![index_button](spotify-clone/src/assets/readme/admin1.png)
@@ -117,8 +126,10 @@ _______________
 
 #### List Albums
 ![index_button](spotify-clone/src/assets/readme/admin4.png)
+</details>
 
-#### <b>MOBILE</b>
+<details>
+<summary>MOBILE Admin - click to see</summary>
 
 #### Add Song
 <img src="spotify-clone/src/assets/readme/mobile-add-song.png" alt="Alt Text" width="300" height="600">
@@ -131,6 +142,7 @@ _______________
 
 #### List Albums
 <img src="spotify-clone/src/assets/readme/mobile-album-list.png" alt="Alt Text" width="300" height="600">
+</details>
 
 ### Future Features<br>
 ________
