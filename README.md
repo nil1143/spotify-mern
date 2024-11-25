@@ -79,7 +79,7 @@ The Spotify Clone project is a web application that replicates the core function
 
 
 ### Spotify Player
-___
+
 <details>
 <summary>Desktop - <b>CLICK</b> to see</summary>
 
@@ -144,8 +144,10 @@ ___
 <img src="spotify-clone/src/assets/readme/mobile-album-list.png" alt="Alt Text" width="300" height="600">
 </details>
 
+---
+
 ### Future Features<br>
-________
+
 * Sidebar, Navbar, Player with full functionality
 
 * Authentication
