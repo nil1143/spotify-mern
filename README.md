@@ -41,12 +41,13 @@ The Spotify Clone project is a web application that replicates the core function
 
 
 
- <b>MERN</b> Stack 
+ #### <b>MERN</b> Stack 
 
  [![MongoDB][Mongodb]][Mongodb-url] [![Express][Express]][Express-url] [![React][React.js]][React-url] [![Node][Node]][Node-url]
 
-Styles
+#### Styles
 
+[![Tailwind][Tailwind]][Tailwind-url]
 
 </div>
 
