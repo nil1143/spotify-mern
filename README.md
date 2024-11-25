@@ -68,9 +68,9 @@ The Spotify Clone project is a web application that replicates the core function
 ### Admin User Stories
 |Story No.|Story|
 | ------------- | ------------- |
-|1|As an admin, <br> I want to be able to add new song<br> so that I can listen to whatever I like. <br><br>I know I am done when user receive a toast message on top-right<br> of Admin Panel after succesfully adding new song. |
+|1|As an admin, <br> I want to be able to add new song<br> so that I can listen to whatever I like. <br><br>I know I am done when user receive a toast message on <br>top-right of Admin Panel after succesfully adding new song. |
 |2|As an admin, <br> I want to be able to list all my songs<br> so that I can organise my songs. <br><br>I know I am done when user get all the songs listed <br>after navigating to List Songs in Admin Panel. |
-|3|As an admin, <br> I want to be able to create an album<br> so that I can add the songs to it. <br><br>I know I am done when user receive a toast message on top-right<br> of Admin Panel after succesfully adding new album. |
+|3|As an admin, <br> I want to be able to create an album<br> so that I can add the songs to it. <br><br>I know I am done when user receive a toast message on <br>top-right of Admin Panel after succesfully adding new album. |
 |4|As an admin, <br> I want to be able to list all my albums<br> so that I can organise my albums. <br><br>I know I am done when user get all the albums listed <br>after navigating to List Album in Admin Panel. |
 |5|As an admin, <br> I want to be able to delete song and playlist<br> so that I can rid out whats unwanted.<br><br>I know I am done when the Remove button in Admin Panel <br>works succesfully. |
 
@@ -147,7 +147,7 @@ ________
 
 ### Manual Testing
 - I have tested that this page works in different web browsers.
-- I have tested that the project is responsive and works with different device sizes. It looks good and functions as normal. 
+- I have tested that the project is responsive and works with different device sizes. Looks good and functions as usual. 
 - I have tested all links, internal and external. They go to the correct destination and open in the correct way. 
 - I have tested that all text and fonts are readable and easy to understand.
 - I have tested that the correct data is passed when the forms are submitted. 
