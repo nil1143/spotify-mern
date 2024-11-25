@@ -1,5 +1,4 @@
-# Spotify Clone
-The Spotify Clone project is a web application that replicates the core functionality of the popular music streaming service Spotify. The application allows users to browse and play music, create and manage playlists.
+<h1 align="center">Spotify Clone MERN</h1>
 
  The live link can be found here - [Spotify Clone](https://spotify-mern-frontend.onrender.com/)
 
@@ -8,14 +7,18 @@ The Spotify Clone project is a web application that replicates the core function
 *** 
 
 ## Contents
-* [Project Goals and UX](#Analyse-and-UX)
+* [About The Project](#about-the-project)
+    * [Description](#description)
+    * [Built With](#build-with)
+* [Project Goals and UX](#project-goals-and-ux)
     * [Project Goals](#Project-Goals)
     * [User Stories](#User-Stories)
+    * [Admin User Stories](#Admin-user-stories)
 <!-- * [Design](#Design)
     * [Wireframes](#Wireframes)
     * [Colour Scheme](#Colour-Scheme)
     * [Fonts](#Fonts) -->
-* [Features and Implemenation](#Features-and-Implemenation)
+* [Features](#Features)
     * [Features](#Features)
     * [Future Features](#Future-Features)
 * [Testing](#Testing)
@@ -28,28 +31,51 @@ The Spotify Clone project is a web application that replicates the core function
 * [Useful Links](#Useful-Links)
 
 ***
+## About The Project
+
+### Description
+
+The Spotify Clone project is a web application that replicates the core functionality of the popular music streaming service Spotify. The application allows users to browse and play music, create and manage playlists.
+
+### Built With
+
+ <b>MERN</b> Stack
+<!-- 
+* [![MongoDB][Mongodb]][Mongodb-url]
+* [![Express][Express]][Express-url]
+* [![React][React.js]][React-url]
+* [![Node][Node]][Node-url] -->
+
+[![MongoDB][Mongodb]][Mongodb-url] [![Express][Express]][Express-url] [![React][React.js]][React-url] [![Node][Node]][Node-url]
+
 
 ## Project Goals and UX
 
 ### Project Goals
-* The Goal of the project is to make an addictive and fun game that will challenge the user.
+* The Goal of the project is to make an real-time music player for the learning purposes.
 
-* It has been designed for people who want to keep coming back to improve their score and compete to get the highest score. 
+* It has been designed for people who want to keep coming back to enjoy their favorite music.
 
 ### User Stories
 |Story No.|Story|
 | ------------- | ------------- |
-|1|As a user , <br> I want to be able to play and pause the music<br> so that I can come back and continue my listening. <br><br>I know I am done when the user can play and pause the music. |
-|2|As a user , <br> I want to be able to play previous/next song<br> so that I can repeat or skip the song I want. <br><br>I know I am done when previous/next button is working as desired. |
-|3|As a user , <br> I want to be able to open the Album on Home screen<br> so that I can see what I can listen to.<br><br>I know I am done when user is navigated to Album item after clicking on. |
-|4|As a user , <br> I want to be able to create a playlist and add a songs to it<br> so that I can listen to whatever I want. <br><br>I know I am done when user receive a toast message in Admin Panel after succesfully adding an album/song. |
-|5|As a user , <br> I want to be able to delete song and playlist<br> so that my page will be more organised.<br><br>I know I am done when the Remove button in Admin Panel works succesfully. |
+|1|As an user , <br> I want to be able to play the music<br> so that I can listen to my favorite songs. <br><br>I know I am done when the user can play the music<br>from Player or by clicking on song on Home screen. |
+|2|As an user , <br> I want to be able to pause the music<br> so that I can come back and continue my listening. <br><br>I know I am done when the user can pause the music<br>in the Player. |
+|3|As an user , <br> I want to be able to play previous/next song<br> so that I can repeat or skip the song I want. <br><br>I know I am done when Player's previous/next buttons <br>are working as desired. |
+|4|As an user , <br> I want to be able to open the Album details<br> so that I can see what I can listen to.<br><br>I know I am done when user is navigated to Album item<br> after clicking on it. |
+|5|As an user , <br> I want to be play any song by clicking on it on Home screen<br> so that will make it simple.<br><br>I know I am done when music plays after user clicked on any song on Home screen. |
 
-## Features and Implemenation
+### Admin User Stories
+|Story No.|Story|
+| ------------- | ------------- |
+|1|As an admin, <br> I want to be able to add new song<br> so that I can listen to whatever I like. <br><br>I know I am done when user receive a toast message on top-right<br> of Admin Panel after succesfully adding new song. |
+|2|As an admin, <br> I want to be able to list all my songs<br> so that I can organise my songs. <br><br>I know I am done when user get all the songs listed <br>after navigating to List Songs in Admin Panel. |
+|3|As an admin, <br> I want to be able to create an album<br> so that I can add the songs to it. <br><br>I know I am done when user receive a toast message on top-right<br> of Admin Panel after succesfully adding new album. |
+|4|As an admin, <br> I want to be able to list all my albums<br> so that I can organise my albums. <br><br>I know I am done when user get all the albums listed <br>after navigating to List Album in Admin Panel. |
+|5|As an admin, <br> I want to be able to delete song and playlist<br> so that I can rid out whats unwanted.<br><br>I know I am done when the Remove button in Admin Panel works succesfully. |
 
-### Features
 
-#### Tech stack - <b>MERN</b>
+## Features
 
 ________
 ### Spotify Player
@@ -125,13 +151,14 @@ ________
 - I have tested all links, internal and external. They go to the correct destination and open in the correct way. 
 - I have tested that all text and fonts are readable and easy to understand.
 - I have tested that the correct data is passed when the forms are submitted. 
-- I have tested that the sorts for high scores work correctly, using a bubble sort.
-- I have tested that the user can add a high score to local storage.
-- I have tested that sound plays at the correct time during the game. When defused and exploded.
-- I have tested the bombs change colour when ignited
-- I have tested that the explode image appears when a bomb explodes
-- I have tested that pressing or tapping a bomb defuses it
-- I have tested that the user can change the game colours to light mode.
+- I have tested that the Play/Pause & Prev/Next buttons are correctly working in Player component.
+- I have tested that the user can play a song from the Display component or Album item component.
+- I have tested that Player seekbar working correctly with regard to song duration.
+- I have tested that user can add the song in Admin Panel.
+- I have tested that user can list all the songs in Admin Panel.
+- I have tested that user can add the album in Admin Panel.
+- I have tested that user can list all the albums in Admin Panel.
+- I have tested that user can remove song and album in Admin Panel.
 
 ## Deployment
 
@@ -158,3 +185,20 @@ ________
  3. Click on the tab called 'pages' on the left hand side.
  4. From the source drop down list under the heading Build and deployment, select main.
  5. The page will hten provide the link to the website.
+
+
+[![Github][Github]][Github-url] [![LinkedIn][LinkedIn]][Linkedin-url] 
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[Mongodb]: https://img.shields.io/badge/-MongoDB-black.svg?style=for-the-badge&logo=mongodb&colorB=555
+[Mongodb-url]: https://www.mongodb.com/atlas
+[Express]: https://img.shields.io/badge/-express-black.svg?style=for-the-badge&logo=express&colorB=333
+[Express-url]: https://expressjs.com/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Node]: https://img.shields.io/badge/node-black.svg?style=for-the-badge&logo=nodedotjs&colorB=333
+[Node-url]: https://nodejs.org/
+[Github]: https://img.shields.io/badge/github-black.svg?style=for-the-badge&logo=github&colorB=333
+[Github-url]: https://github.com/nil1143
+[LinkedIn]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[LinkedIn-url]: https://www.linkedin.com/in/tomasz-nilipiuk-b5b88a239/
