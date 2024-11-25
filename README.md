@@ -27,8 +27,6 @@
 * [Deployment](#Deployment)
     * [Cloning & Forking](#Cloning-&-Forking)
     * [Remote Deployment](#Remote-Deployment)
-* [Credits](#Credits)
-* [Useful Links](#Useful-Links)
 
 ***
 ## About The Project
@@ -39,7 +37,9 @@ The Spotify Clone project is a web application that replicates the core function
 
 ### Built With
 
+<div align="center">
  <b>MERN</b> Stack
+ <br><br>
 <!-- 
 * [![MongoDB][Mongodb]][Mongodb-url]
 * [![Express][Express]][Express-url]
@@ -48,6 +48,7 @@ The Spotify Clone project is a web application that replicates the core function
 
 [![MongoDB][Mongodb]][Mongodb-url] [![Express][Express]][Express-url] [![React][React.js]][React-url] [![Node][Node]][Node-url]
 
+</div>
 
 ## Project Goals and UX
 
@@ -199,9 +200,14 @@ The Spotify Clone project is a web application that replicates the core function
  3. Click on the tab called 'pages' on the left hand side.
  4. From the source drop down list under the heading Build and deployment, select main.
  5. The page will hten provide the link to the website.
-
+<br>
+<br>
+<br>
+<br>
+<div align="center">
 
 [![Github][Github]][Github-url] [![LinkedIn][LinkedIn]][Linkedin-url]
+</div>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [Mongodb]: https://img.shields.io/badge/-MongoDB-black.svg?style=for-the-badge&logo=mongodb&colorB=555
