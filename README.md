@@ -63,7 +63,7 @@ The Spotify Clone project is a web application that replicates the core function
 |2|As an user , <br> I want to be able to pause the music<br> so that I can come back and continue my listening. <br><br>I know I am done when the user can pause the music<br>in the Player. |
 |3|As an user , <br> I want to be able to play previous/next song<br> so that I can repeat or skip the song I want. <br><br>I know I am done when Player's previous/next buttons <br>are working as desired. |
 |4|As an user , <br> I want to be able to open the Album details<br> so that I can see what I can listen to.<br><br>I know I am done when user is navigated to Album item<br> after clicking on it. |
-|5|As an user , <br> I want to be play any song by clicking on it on Home screen<br> so that will make it simple.<br><br>I know I am done when music plays after user clicked on any song on Home screen. |
+|5|As an user , <br> I want to be play any song by clicking on it on Home screen<br> so that will make it simple.<br><br>I know I am done when music plays after user clicked on <br>any song on Home screen. |
 
 ### Admin User Stories
 |Story No.|Story|
@@ -72,7 +72,7 @@ The Spotify Clone project is a web application that replicates the core function
 |2|As an admin, <br> I want to be able to list all my songs<br> so that I can organise my songs. <br><br>I know I am done when user get all the songs listed <br>after navigating to List Songs in Admin Panel. |
 |3|As an admin, <br> I want to be able to create an album<br> so that I can add the songs to it. <br><br>I know I am done when user receive a toast message on top-right<br> of Admin Panel after succesfully adding new album. |
 |4|As an admin, <br> I want to be able to list all my albums<br> so that I can organise my albums. <br><br>I know I am done when user get all the albums listed <br>after navigating to List Album in Admin Panel. |
-|5|As an admin, <br> I want to be able to delete song and playlist<br> so that I can rid out whats unwanted.<br><br>I know I am done when the Remove button in Admin Panel works succesfully. |
+|5|As an admin, <br> I want to be able to delete song and playlist<br> so that I can rid out whats unwanted.<br><br>I know I am done when the Remove button in Admin Panel <br>works succesfully. |
 
 
 ## Features
