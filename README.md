@@ -192,7 +192,7 @@ ________
 <!-- MARKDOWN LINKS & IMAGES -->
 [Mongodb]: https://img.shields.io/badge/-MongoDB-black.svg?style=for-the-badge&logo=mongodb&colorB=555
 [Mongodb-url]: https://www.mongodb.com/atlas
-[Express]: https://img.shields.io/badge/-express-black.svg?style=for-the-badge&logo=express&colorB=333
+[Express]: https://img.shields.io/badge/-express-white.svg?style=for-the-badge&logo=express&colorB=333
 [Express-url]: https://expressjs.com/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
