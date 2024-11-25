@@ -81,7 +81,7 @@ The Spotify Clone project is a web application that replicates the core function
 ### Spotify Player
 ___
 <details>
-<summary>DESKTOP - click to see</summary>
+<summary>Desktop - <b>CLICK</b> to see</summary>
 
 #### Display | Home Page
 ![index_button](/spotify-clone/src/assets/readme/live-view.png)
@@ -100,7 +100,7 @@ ___
 </details>
 
 <details>
-<summary>MOBILE - click to see</summary>
+<summary>Mobile - <b>CLICK</b> to see</summary>
 
 #### Display | Home Page
 <img src="spotify-clone/src/assets/readme/mobile-display.png" alt="Alt Text" width="300" height="600">
@@ -113,7 +113,7 @@ ___
 ### Admin Panel
 
 <details>
-<summary>DESKTOP Admin - click to see</summary>
+<summary>Desktop Admin - <b>CLICK</b> to see</summary>
 
 #### Add Song
 ![index_button](spotify-clone/src/assets/readme/admin1.png)
@@ -129,7 +129,7 @@ ___
 </details>
 
 <details>
-<summary>MOBILE Admin - click to see</summary>
+<summary>Mobile Admin - <b>CLICK</b> to see</summary>
 
 #### Add Song
 <img src="spotify-clone/src/assets/readme/mobile-add-song.png" alt="Alt Text" width="300" height="600">
@@ -199,7 +199,7 @@ ________
  5. The page will hten provide the link to the website.
 
 
-[![Github][Github]][Github-url] [![LinkedIn][LinkedIn]][Linkedin-url] 
+[![Github][Github]][Github-url] [![LinkedIn][LinkedIn]][Linkedin-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [Mongodb]: https://img.shields.io/badge/-MongoDB-black.svg?style=for-the-badge&logo=mongodb&colorB=555
