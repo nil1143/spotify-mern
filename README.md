@@ -38,15 +38,15 @@ The Spotify Clone project is a web application that replicates the core function
 ### Built With
 
 <div align="center">
- <b>MERN</b> Stack
- <br><br>
-<!-- 
-* [![MongoDB][Mongodb]][Mongodb-url]
-* [![Express][Express]][Express-url]
-* [![React][React.js]][React-url]
-* [![Node][Node]][Node-url] -->
 
-[![MongoDB][Mongodb]][Mongodb-url] [![Express][Express]][Express-url] [![React][React.js]][React-url] [![Node][Node]][Node-url]
+
+
+ <b>MERN</b> Stack 
+
+ [![MongoDB][Mongodb]][Mongodb-url] [![Express][Express]][Express-url] [![React][React.js]][React-url] [![Node][Node]][Node-url]
+
+Styles
+
 
 </div>
 
@@ -222,3 +222,5 @@ The Spotify Clone project is a web application that replicates the core function
 [Github-url]: https://github.com/nil1143
 [LinkedIn]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [LinkedIn-url]: https://www.linkedin.com/in/tomasz-nilipiuk-b5b88a239/
+[Tailwind]: https://img.shields.io/badge/Tailwind-blue.svg?style=for-the-badge&logo=tailwind-css&colorB=EFEFFF
+[Tailwind-url]: https://tailwindcss.com/
