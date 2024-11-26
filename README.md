@@ -160,7 +160,14 @@ The Spotify Clone project is a web application that replicates the core function
 
 ### Accessibility Testing
 #### Lighthouse
+Player
+
 ![index_button](spotify-clone/src/assets/readme/lighthouse-spotify.png)
+<br>
+
+Admin 
+
+![index_button](spotify-clone/src/assets/readme/lighthouse-admin.png)
 
 ### Manual Testing
 - I have tested that this page works in different web browsers.
